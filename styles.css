@@ -1,0 +1,23 @@
+:root {
+  --main-bg-color: #444654;
+  --canvas-border: 5px solid #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  background-color: var(--main-bg-color);
+  display: flex;
+  place-items: center;
+}
+
+#canvas {
+  border: var(--canvas-border);
+  border-radius: 8px;
+}
